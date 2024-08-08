@@ -48,7 +48,7 @@ def main():
         img = get_img_299(img_path)
         loaded_image.append(img)
 
-        model_path = "model_1.keras"  # This one is the best: 96 % accuracy
+        model_path = "./model/model_1.keras"  # This one is the best: 96 % accuracy
         print("loading model: ", model_path)
         model = get_model(model_path)
 
